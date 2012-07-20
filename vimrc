@@ -28,6 +28,8 @@ filetype plugin indent on       " Activate indentation and code plugins
 set showmatch                   " Highlight parenthesis
 set number                      " Activate line number
 set numberwidth=5               " on 5 column at the left
+" F7 key search for trailing whitespaces
+map <F7> /\s\+$<CR>
 
 
 " === Search features ===
