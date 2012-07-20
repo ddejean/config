@@ -1,0 +1,12 @@
+[user]
+	name = Damien Dejean
+	email = djod4556@yahoo.fr
+[color]
+	ui = auto
+[merge]
+    tool = meld
+[diff]
+	tool = meld
+[core]
+    excludesfile=~/.gitexcludes
+
