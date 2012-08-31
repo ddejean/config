@@ -38,14 +38,14 @@ set ignorecase                  " Case unsensitive search
 set smartcase                   " Search is sentitive to case only if there is
                                 " caps in the searched expression
 " F5 key toggle search highlighting
-map <F5> :set hls!<bar>set hls?<CR>
+map <F6> :set hls!<bar>set hls?<CR>
 
 
 " === Spell features ===
 set spelllang=en,fr             " Load english and french
 set spellsuggest=5              " 5 fix proposition
 " F6 key toggle spelling
-map <F6> :set spell!<bar>set spell?<CR>
+map <F8> :set spell!<bar>set spell?<CR>
 
 
 " === Auto-completion ===
@@ -128,5 +128,4 @@ let g:clang_use_library = 1
 let g:clang_library_path="/usr/lib/llvm/"
 let g:clang_complete_macros = 1
 let g:clang_complete_patterns = 1
-
 
