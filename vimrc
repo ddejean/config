@@ -6,7 +6,7 @@ set ruler                       " Show cursor position in status bar
 set fileformats=unix,dos,mac
 set mouse=a                     " Enable mouse
 set bs=2                        " Do backspace work in command mode
-set textwidth=75                " Enable almost 80 char for text formatting
+set textwidth=80                " Enable almost 80 char for text formatting
 set wildmode=longest:full       " Enable file name completion like bash
 set wildmenu
 
@@ -28,6 +28,13 @@ filetype plugin indent on       " Activate indentation and code plugins
 set showmatch                   " Highlight parenthesis
 set number                      " Activate line number
 set numberwidth=5               " on 5 column at the left
+set scrolloff=5                 " Keep 5 lines before and after the cursor when navigating
+set confirm                     " Ask for confirmation when leaving modified bu unsaved file
+" Use 'kj' to leave insertion mode
+inoremap kj <Esc>
+" Show whitespace errors
+set list
+set listchars=tab:>\ ,nbsp:·,trail:·
 " F7 key search for trailing whitespaces
 map <F7> /\s\+$<CR>
 
@@ -76,6 +83,9 @@ set tabstop=4                   " Defaut: tabs = 4 spaces
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Makefiles: use tab to indent
+autocmd Filetype ?akefile set noexpandtab
 
 " C style code
 autocmd Filetype c,objc setlocal tabstop=8
