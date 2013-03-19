@@ -121,6 +121,7 @@ let Tlist_Enable_Fold_Column = 0
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_File_Fold_Auto_Close = 0
 let Tlist_Use_SingleClick = 1
+set tags+=tags;
 
 
 " === Clang complete ===
