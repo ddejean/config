@@ -143,3 +143,7 @@ let g:clang_complete_patterns = 1
 imap <C-Space> <C-x><C-u>
 imap <C-@> <C-Space>
 
+
+" === Vim latex ===
+imap <buffer> <F8> <Plug>Tex_InsertItemOnThisLine
+
