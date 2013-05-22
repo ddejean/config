@@ -1,0 +1,7 @@
+************************************
+***** Configuration repository *****
+*****    Setup instructions    *****
+************************************
+
+*** Konsole configuration ****
+ln -s ~/.config.git/konsole/tango.colorscheme ~/.kde/share/apps/konsole/tango.colorscheme
