@@ -7,6 +7,7 @@ set fileformats=unix,dos,mac
 set mouse=a                     " Enable mouse
 set bs=2                        " Do backspace work in command mode
 set textwidth=80                " Enable almost 80 char for text formatting
+set background=dark             " Use a dark background
 set wildmode=longest:full       " Enable file name completion like bash
 set wildmenu
 
